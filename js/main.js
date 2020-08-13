@@ -12,16 +12,32 @@ jQuery(document).ready(function($) {
 		
 	});
 
-	$(".header__block a").click(function() {
-	$(".header__block").fadeOut(200);
-		
-	});
+	
 
 	$(".close-menu").click(function(e) {
 	e.preventDefault();
 	$(".header__block").fadeOut(200);
 	});
 
+	$(".has_child > a").click(function(e) {
+	e.preventDefault();
+	$(".header-menu ul").slideUp(200);
+	if ($(this).siblings("ul").is(":hidden")) {
+       $(this).siblings("ul").slideDown(200);
+      } else {
+        $(this).siblings("ul").slideUp(200);
+      }
+	});
+
+
+{
+ if ($(window).width() < 992) { 
+  $(".header__block li:not(.has_child) a").click(function() {
+	$(".header__block").fadeOut(200);
+		
+	});
+ }
+}
 	//плавный скролл
 	$(".scrolldown a").mPageScroll2id();
 
