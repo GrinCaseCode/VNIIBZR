@@ -241,7 +241,9 @@ background-position: right 20px center;
     display: none;
 }
 .sponsors-mobile  {
+    margin: 0 auto;
     margin-bottom: -10px;
+    max-width: 290px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;

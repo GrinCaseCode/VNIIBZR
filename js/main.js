@@ -12,6 +12,11 @@ jQuery(document).ready(function($) {
 		
 	});
 
+	$(".header__block a").click(function() {
+	$(".header__block").fadeOut(200);
+		
+	});
+
 	$(".close-menu").click(function(e) {
 	e.preventDefault();
 	$(".header__block").fadeOut(200);
