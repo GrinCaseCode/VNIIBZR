@@ -1,6 +1,10 @@
+body {
+    overflow-x: hidden;
+}
 .wrapper {
+    overflow: hidden;
     min-height: 100vh;
-    background: url('../img/background/body.png') no-repeat center/cover;
+    background: url('../img/background/body.jpg') no-repeat center/cover;
   
 }
 
