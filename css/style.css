@@ -373,7 +373,7 @@ body {
 .conference-invite {
     margin: 60px 0px 0px 0px;
     color: #ffffff;
-    font-family: "Georgia-italic";
+    font-family: 'Georgia-Italic';
     font-size: 26px;
     font-weight: 400;
     line-height: 24px;
