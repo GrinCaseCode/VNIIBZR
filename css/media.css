@@ -288,6 +288,9 @@ background-position: right 20px center;
     padding: 0 20px;
     margin-bottom: 0;
 }
+.header-text p {
+    max-width: 265px;
+}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
