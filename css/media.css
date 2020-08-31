@@ -69,6 +69,12 @@
 .block-text .main-date {
     margin-top: 0;
 }
+
+.place-title {
+    font-size: 39px;
+    line-height: 43px;
+    width: 100%;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -243,11 +249,62 @@ background-position: right 20px center;
 .block-text .main-date {
     margin-top: 5px;
 }
+
+/*new*/
+.contact-map,
+.place-title {
+    margin: 0;
+}
+.title-big_contacts,
+.report-title {
+    margin-top: 0;
+}
+.contacts-form__title {
+    margin-top: 20px;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    /*new*/
+    .place-img {
+        margin-top: 40px;
+    }
+    .title-big {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .btns-tabs a {
+        font-size: 14px;
+    margin: 0 4px;
+}
+.row_report {
+    margin: 0 -5px;
+}
+.row_report div {
+    padding: 0 5px;
+}
+.slider-report-img {
+    margin-bottom: 10px;
+}
+.row_report .row {
+    padding: 0;
+    margin: 0 -5px;
+}
+.slider-report-img {
+    height: 145px;
+    }
+    .report-price {
+        margin-bottom: 20px;
+    }
+    .title-big_min {
+        font-size: 28px;
+    }
+    .contact-map img {
+        width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 @media only screen and (max-width : 590px) {
 .sponsors,
@@ -291,6 +348,9 @@ background-position: right 20px center;
 .header-text p {
     max-width: 265px;
 }
+
+
+
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -303,6 +363,34 @@ background-position: right 20px center;
     object-fit: cover;
     font-family: 'object-fit: cover;';
 }
+
+/*new*/
+.choice .title-big {
+    margin: 25px 0px 19px 0px;
+    font-size: 26px;
+    line-height: 35px;
+}
+.btns-tabs {
+    flex-wrap: wrap;
+}
+.btns-tabs li a {
+    margin: 10px 0;
+}
+.title-big_min {
+    font-size: 23px;
+    line-height: 29px;
+}
+.report-article {
+    margin-bottom: 30px;
+}
+.title-big_contacts {
+    margin-bottom: 20px;
+}
+.contacts-form__title {
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    }
 }
 
 /* Custom, iPhone Retina */

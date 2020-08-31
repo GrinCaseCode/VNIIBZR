@@ -465,3 +465,360 @@ body {
     font-size: 13px;
     line-height: 16px;
 }
+
+.map-main {
+    height: 280px;
+    width: 100%;
+}
+.ymaps-2-1-77-svg-icon.ymaps_https___api_maps_yandex_ru_2_1_77_31695669538islands_icon___1E98FF_34x41_1598267777951 {
+
+}
+ /* place */
+
+  .place-img img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+
+  .place-img {
+      margin: 128px 0px 0px 0px;
+
+  }
+
+
+  .place-title {
+      margin: 121px 0px 0px 0px;
+}
+
+.place-address {
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #Fff;
+    margin: 0px 0px 20px 0px;
+  
+    
+}
+
+.place-address-items {
+    margin: 40px 0px 0px 0px;
+
+
+}
+
+.place-address-title {
+    font-family: "RobotoBold";
+  
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+    color: #fff;
+}
+.place-phone-title {
+
+  
+}
+.place-phone__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+/* choice */
+
+.choice-title {
+    margin: 0;
+    margin: 60px 0px 40px 0px;
+    font-size: 32px;
+}
+
+.btns-tabs  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;    
+}
+
+
+.btns-tabs li {
+    width: 100%;
+}
+
+.btns-tabs a {
+   margin: 0 15px;
+    padding: 18px 0px 18px 0px;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "RobotoBold";
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.btns-tabs li:first-child a {
+    margin-left: 0;
+}
+.btns-tabs li:last-child a {
+    margin-right: 0;
+}
+.tab-pane-report,
+.tab-pane-map {
+   height: 0;
+   overflow: hidden;
+}
+.tab-pane-report.active,
+.tab-pane-map.active {
+    height: auto;
+}
+
+.btns-tabs li a:hover,
+.btns-tabs li.active a  {
+    background: rgba(8, 174, 79, 0.4);
+    border: 1px solid #08AE4F;
+    
+}
+
+#map {
+    width: 100%;
+    height: 280px;
+}
+
+/* report */
+
+.report-title {
+    margin-top: 115px;
+}
+
+.report-subtitle {
+    font-size: 32px;
+    margin: 40px 0px 20px 0px;
+}
+
+.report-payment {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 0px 10px 0px;
+
+}
+.report-price {
+    color: #fff;
+    font-family: "RobotoBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 0px 0px 40px 0px;
+}
+
+.report-price span {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  
+}
+
+.report-article {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0px 0px 60px 0px;
+}
+
+.tabs-container {
+    position: relative;
+}
+.report-slider {
+   position: relative;
+  margin-top: 10px;
+}
+.report-slider-item {
+    height: 426px;
+}
+.slider-report-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+}
+.slider-report-img {
+    height: 198px;
+    margin: 0px 0px 30px 0px;
+    display: block;
+    transition: all 0.3s;
+    }
+.slider-report-img:hover {
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.8);
+}
+.slider-report-img-big {
+    height: 258px;
+   
+}
+.slider-report-img-small {
+    height: 137px;
+}
+.report-slider {
+    padding-bottom: 90px;
+}
+.slick-arrow {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    top: auto;
+        position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px; 
+    transition: all 0.3s;
+    }
+.slick-arrow:hover {
+    box-shadow: 0 0 5px #fff;
+}
+.slick-next {
+    left: 80px;
+}
+.title-big {
+    color: #ffffff;
+    font-family: "Montserrat-Bold";
+    font-size: 46px;
+    line-height: 60px;
+}
+.choice .title-big {
+   margin: 60px 0px 40px 0px;
+    font-size: 32px;
+}
+.title-big_min {
+    font-size: 32px;
+}
+.ymaps-2-1-77-placemark-overlay.ymaps-2-1-77-user-selection-none {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+}
+.slick-prev:before, .slick-next:before {
+    display: none !important;
+}
+.fancybox-skin {
+    padding: 0 !important;
+}
+
+/*contacts*/
+.contact-map {
+    margin: 128px 0px 0px 0px;
+}
+
+.contact-map img {
+    max-width: 100%;
+}
+.title-big_contacts {
+    margin-bottom: 40px;
+    margin-top: 121px;
+}
+.contacts-info__caption{
+    font-family: "RobotoBold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.contacts-info__text{
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.contacts-info__image{
+    margin-top: 121px;
+}
+.contacts-form {
+    padding-bottom: 0px;
+    width: 100%;
+}
+.contacts-form__title{
+    font-family: "Montserrat-Bold";
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-top: 74px;
+}
+.contacts-form textarea,
+.contacts-form input {
+    outline: none;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    transition: all 0.3s;
+}
+.contacts-form textarea {
+    height: 120px;
+    padding-top: 18px;
+    resize: none;
+}
+.contacts-form textarea:hover,
+.contacts-form input:hover {
+    border: 1px solid #08AE4F;
+}
+*::-webkit-input-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    *:-moz-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    *::-moz-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    *:-ms-input-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    }
+
+.form-btn{
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "RobotoBold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.form-btn:hover{
+    background: rgba(255, 255, 255, 0);
+}
+
+.place-title {
+    width: 500px;
+}
