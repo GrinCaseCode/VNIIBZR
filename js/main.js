@@ -38,6 +38,37 @@ jQuery(document).ready(function($) {
 	});
  }
 }
+
+$('.choice-btn li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-map").removeClass("active");
+		var selectTab = $(this).attr("href");
+		$(selectTab).addClass("active");
+	});
+
+$('.report-tab li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-report").removeClass("active");
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).addClass("active");
+	});
+
+$('.report-slider').slick({
+	arrows: true,
+	dots: false,
+	swipe: false,
+	infinite: true,
+	slidesToShow: 1,
+	 prevArrow: '<div class="slick-prev "><img src="img/prev.svg"></img><div/>',
+	 nextArrow: '<div class="slick-next "><img src="img/next.svg"></img></i><div/>',
+	slidesToScroll: 1
+});
+
+$(".fancybox").fancybox();
 	//плавный скролл
 	$(".scrolldown a").mPageScroll2id();
 
